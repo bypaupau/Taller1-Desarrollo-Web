@@ -1,0 +1,28 @@
+*{box-sizing: border-box;}
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background-color: #facdd7;
+    color: #2d1b16;
+}
+
+#menu h2 {
+    width: 100%;
+    text-align: center;
+    color: #4c2d59;
+}
+
+.menu-item{
+    border: 2px solid #805265;
+        border-radius: 8px;
+        padding: 12px;
+}
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+.menu-item {
+    width: 260px;
+}
